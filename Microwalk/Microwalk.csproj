@@ -14,4 +14,8 @@
     <PackageReference Include="YamlDotNet" Version="6.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GdbTracer\GdbTracer.csproj" />
+  </ItemGroup>
+
 </Project>
