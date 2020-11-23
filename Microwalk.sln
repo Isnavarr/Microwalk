@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapFileConverter", "Tools\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdbTracer", "GdbTracer\GdbTracer.csproj", "{D23D482A-A121-4367-8027-784CFBADE7D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdbRspClientLibrary", "..\GdbRspClientLibrary\GdbRspClientLibrary\GdbRspClientLibrary.csproj", "{EB780A98-9FF4-402A-8F63-101014D97931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{D23D482A-A121-4367-8027-784CFBADE7D7}.Release|x64.Build.0 = Release|Any CPU
 		{D23D482A-A121-4367-8027-784CFBADE7D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{D23D482A-A121-4367-8027-784CFBADE7D7}.Release|x86.Build.0 = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|x64.Build.0 = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB780A98-9FF4-402A-8F63-101014D97931}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

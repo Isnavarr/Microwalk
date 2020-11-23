@@ -1,9 +1,15 @@
 ﻿using System;
+using GdbRspClientLibrary;
 
 namespace GdbTracer
 {
-    public class GdbTracer // TODO: <TDebugger> where TDebugger : ...
+    /// <summary>
+    /// GDB tracer controller class.
+    /// </summary>
+    /// <typeparam name="TDebugger">The <see cref="Debugger"/> type used for tracing.</typeparam>
+    public class GdbTracer<TDebugger> where TDebugger : Debugger
     {
+        private readonly TDebugger _debugger;
         /* Required features:
          Identify begin and end of testcase
          Identify begin and end of images
@@ -13,10 +19,17 @@ namespace GdbTracer
          Trace:
            Branches
            Memory accesses
-           
-           
-           
-          -> Build communication between VM and debugger client...
          */
+
+        /// <summary>
+        /// Creates a new GDB tracer with the given debugger instance.
+        /// </summary>
+        /// <param name="debugger">The debugger which is used for tracing.</param>
+        public GdbTracer(TDebugger debugger)
+        {
+            _debugger = debugger ?? throw new ArgumentNullException(nameof(debugger));
+        }
+        
+        
     }
 }

@@ -21,6 +21,7 @@ namespace Microwalk.TraceGeneration.Modules
         /// </summary>
         private Process _pinToolProcess;
 
+        // Not supported. This module only manages a single Pin instance, which currently is fast enough.
         public override bool SupportsParallelism => false;
 
         public override async Task GenerateTraceAsync(TraceEntity traceEntity)

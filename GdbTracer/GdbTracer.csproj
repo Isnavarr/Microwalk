@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\GdbRspClientLibrary\GdbRspClientLibrary\GdbRspClientLibrary.csproj" />
+    </ItemGroup>
+
 </Project>
